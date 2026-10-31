@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142850"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <g transform="translate(64, 64)" filter="url(#shadow)">
+    <!-- Mosaic Tiles -->
+    <path d="M 40,40 L 170,40 L 170,170 L 40,170 Z" rx="20" fill="#0D9488" stroke="#142850" stroke-width="8"/>
+    <path d="M 190,40 L 320,40 L 320,170 L 190,170 Z" rx="20" fill="#F43F5E" stroke="#142850" stroke-width="8"/>
+    <path d="M 40,190 L 170,190 L 170,320 L 40,320 Z" rx="20" fill="#F59E0B" stroke="#142850" stroke-width="8"/>
+    <path d="M 190,190 L 320,190 L 320,320 L 190,320 Z" rx="20" fill="#3B82F6" stroke="#142850" stroke-width="8"/>
+    <!-- Central Sphere Highlight -->
+    <circle cx="180" cy="180" r="54" fill="#FFFFFF" fill-opacity="0.95"/>
+    <circle cx="180" cy="180" r="46" fill="#F59E0B"/>
+    <circle cx="166" cy="166" r="14" fill="#FFFFFF" fill-opacity="0.8"/>
+  </g>
+</svg>
